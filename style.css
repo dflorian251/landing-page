@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* BASIC STYLES AND PROPERTIES */
 *{
     margin:0;
     padding:0;
@@ -20,11 +21,66 @@ body {
     color: #f9faf8;
 }
 
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;  
+}
+
 .hero-secondary-text {
     font-size: 18px;
     color : #e5e7eb;
 }
 
+.header-image {
+    width: 647px;
+    height: 408px;
+}
+
 button {
     background-color: #3882f6;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* THE MAIN ALIGNMENT OF THE PAGE */
+
+.header {
+    display: flex;
+    padding: 0 10% 5% 10%;  
+    flex-direction: column;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* We need this so the nav links have some space in between */
+.nav-bar a {
+    padding: 10px;
+}
+
+
+.bottom-header {
+    display: flex;
+}
+
+.bottom-left-header{
+    flex: auto;
+}
+
+
+.bottom-right-header {
+    width: 100%;
+    flex: auto;
 }
