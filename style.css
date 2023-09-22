@@ -46,6 +46,12 @@ ul {
     justify-content: space-evenly;
 }
 
+.info-text {
+    font-size: 36px;
+    font-weight: 800;
+    color : #1f2937;
+}
+
 /* THE MAIN ALIGNMENT OF THE PAGE */
 
 .header {
