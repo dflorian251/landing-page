@@ -36,7 +36,7 @@ body {
     height: 408px;
 }
 
-button {
+button, .cta {
     background-color: #3882f6;
 }
 
@@ -86,4 +86,14 @@ ul {
 .bottom-right-header img {
     height: 100%;
     width: 100%;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 7px 30px;
+    border-radius: 6px;
+    border: none;
+    margin: 1em 0;
 }
