@@ -54,6 +54,8 @@ ul {
 
 /* THE MAIN ALIGNMENT OF THE PAGE */
 
+
+/* HEADER SECTION STYLING */
 .header {
     display: flex;
     padding: 0 10% 5% 10%;  
@@ -103,4 +105,24 @@ button {
     border-radius: 6px;
     border: none;
     margin: 1em 0;
+}
+
+/* INFO SECTION STYLING */
+.info {
+    padding: 3em 0;
+    display: flex;
+    gap: 1em ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-images-container {
+    display: flex;
+    gap: 1em;
+}
+
+.info-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
 }
