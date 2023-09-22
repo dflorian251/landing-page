@@ -76,11 +76,14 @@ ul {
 }
 
 .bottom-left-header{
-    flex: auto;
+    flex: 1 1 50%;
 }
 
-
 .bottom-right-header {
+    flex: 1 1 50%;
+}
+
+.bottom-right-header img {
+    height: 100%;
     width: 100%;
-    flex: auto;
 }
