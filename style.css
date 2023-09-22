@@ -52,6 +52,7 @@ ul {
     display: flex;
     padding: 0 10% 5% 10%;  
     flex-direction: column;
+    gap: 8em;
 }
 
 .top-header{
@@ -69,7 +70,6 @@ ul {
 .nav-bar a {
     padding: 10px;
 }
-
 
 .bottom-header {
     display: flex;
