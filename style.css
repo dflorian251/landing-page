@@ -36,7 +36,7 @@ body {
     height: 408px;
 }
 
-button, .cta {
+button, .cta-container {
     background-color: #3882f6;
 }
 
@@ -159,4 +159,40 @@ button {
     text-align: end;
     font-weight: bold;
     flex: 1;
+}
+
+/* CALL TO ACTION SECTION STYLING */
+.cta p {
+    color: white;
+}
+
+.cta {
+    padding: 5em 10em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    flex-grow: 0;
+    padding: 2em 6em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5em;
+}
+
+.cta-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-button {
+    border: white 1px solid;
+}
+
+.cta-text-container .p:first-child{
+    font-weight: bold;
 }
