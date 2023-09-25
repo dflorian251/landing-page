@@ -190,9 +190,22 @@ button {
 }
 
 .cta-button {
-    border: white 1px solid;
+    border: white 2px solid;
 }
 
 .cta-text-container .p:first-child{
     font-weight: bold;
+}
+
+/* FOOTER STYLING */
+.footer {
+    padding: 2.5em;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
 }
