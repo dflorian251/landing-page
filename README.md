@@ -1,1 +1,3 @@
-# landing-page
+# Landing-page
+
+I SHOULD PUT CREDITS FOR THE IMAGE
